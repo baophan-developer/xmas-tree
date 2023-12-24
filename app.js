@@ -16,6 +16,4 @@ const makeSnow = () => {
     setTimeout(() => snow.remove(), 5000);
 };
 
-const audio = new Audio("./music.mp3");
-audio.play();
 setInterval(makeSnow, 10);
