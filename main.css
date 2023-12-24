@@ -182,10 +182,11 @@ body {
 
 .snow {
     position: absolute;
-    top: -10px;
-    background: lightblue;
+    top: -20px;
+    background: transparent;
     border-radius: 50%;
     animation: fall linear;
+    color: white;
 }
 
 @keyframes fall {

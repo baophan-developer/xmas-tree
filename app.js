@@ -1,10 +1,10 @@
 const main = document.getElementById("main");
 const makeSnow = () => {
     const snow = document.createElement("div");
-    const size = Math.random() * 4.5 + 3.5;
+    const size = Math.random() * 6.5 + 4.5;
     snow.classList.add("snow");
-    snow.style.width = size + "px";
-    snow.style.height = size + "px";
+    snow.innerHTML = `<i class="fa-solid fa-snowflake"></i>`;
+    snow.style.fontSize = size + "px";
     snow.style.left = Math.random() * window.innerWidth + "px";
     snow.style.opacity = size / 8;
     snow.style.zIndex = 5;
